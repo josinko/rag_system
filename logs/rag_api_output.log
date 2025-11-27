@@ -13,7 +13,9 @@ Ollama server is running.
 Documents unchanged, using existing database
 Using existing database
 Loading existing vector database...
-ERROR during initialization: '_type'
+Vector store loaded from disk!
+Loading LLM...
+RAG system initialized successfully! (database: up_to_date)
 ============================================================
 RAG API Server Starting (Centralized Server Mode)...
 Server will be accessible at: http://0.0.0.0:5000
@@ -26,13 +28,9 @@ Checking Ollama server at http://localhost:11434...
  * Serving Flask app 'rag_api'
  * Debug mode: off
 Ollama server is running.
-No existing database found
-Rebuilding database (reason: no_database)
-Loading PDFs from 'D:\Work\It\Codes\_GitHub\rag_system\documents'...
-Loaded 56 pages
-Created 231 chunks
-Initializing embeddings model...
-Creating vector store, Attempt 1/3...
-Vector store created successfully!
+Documents unchanged, using existing database
+Using existing database
+Loading existing vector database...
+Vector store loaded from disk!
 Loading LLM...
-RAG system initialized successfully! (database: no_database)
+RAG system initialized successfully! (database: up_to_date)
